@@ -45,8 +45,22 @@
 
 
 @media screen and (max-width: 768px) {
-  .university, .web {
-    width: 100%;
-    margin: 5px 0;
+  .about-me-section {
+    padding-left: 0;
+
+    .university, .web {
+      width: 100%;
+      margin: 5px 0;
+      p {
+        padding: 5px;
+      }
+    }
+    ul {
+      justify-content: space-around;
+      li {
+        margin: 0;
+      }
+    }
   }
+
 }
