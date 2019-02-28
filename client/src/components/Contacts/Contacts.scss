@@ -1,0 +1,14 @@
+.contacts-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info span {
+  margin-bottom: 10px;
+}
