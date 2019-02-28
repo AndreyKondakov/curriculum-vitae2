@@ -1,6 +1,6 @@
 .resume-section {
   padding: 4%;
-  height: 75vh;
+  height: 72vh;
   display: flex;
   align-items: center;
 
@@ -22,4 +22,20 @@
   .qualities {
     align-self: flex-end;
   }
+}
+
+@media screen and (max-width: 768px) {
+
+  .resume-section {
+    flex-direction: column;
+    height: auto;
+    .info {
+      width: 100%;
+      height: auto;
+    }
+    .qualities {
+      align-self: auto;
+    }
+  }
+
 }

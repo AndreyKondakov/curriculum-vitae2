@@ -80,7 +80,7 @@ class Home extends Component {
           <p>2018 – till now GeekHub – JavaScript (8 th season)</p>
           <i className="fas fa-smile-beam smile"></i>
         </div>
-        <canvas id="tp2p" ref={this.tp2p} ></canvas>
+        {/*<canvas id="tp2p" ref={this.tp2p} ></canvas>*/}
       </section>
     );
   }

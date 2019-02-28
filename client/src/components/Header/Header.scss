@@ -34,9 +34,9 @@ body {font:400 16px 'Montserrat', sans-serf;}
 
 /* Nav */
 .nav {list-style:none; margin:0; padding:0;}
-.nav li {width:100%; margin:0 0 1em 0; display:block;}
+.nav li {width:100%; padding: 1em 0; display:block;}
 .nav li:last-child {margin:0;}
-.nav a {color:#fff; text-decoration:none;}
+.nav a {color:#fff; text-decoration:none; display: block}
 
 
 /*************/

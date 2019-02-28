@@ -3,7 +3,6 @@ import './Resume.scss';
 import portret from './portret.jpg'
 class Resume extends Component {
 
-
   render() {
     return (
       <section className="resume-section section" >
