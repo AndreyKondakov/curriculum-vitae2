@@ -18,5 +18,8 @@
 @media screen and (max-width: 768px) {
   .contacts-section {
     flex-direction: column;
+    img {
+      width: 100%;
+    }
   }
 }
