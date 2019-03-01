@@ -52,22 +52,16 @@ body {font:400 16px 'Montserrat', sans-serf;}
 
 @media screen and (min-width:600px) {
   /* Home */
-  #header {padding:1em; background:$color-pri;}
-  #header-content {max-width:800px; margin:0 auto; overflow:hidden;}
+  #header {padding: .5em; background:$color-pri;}
+  #header-content {max-width:800px; margin:0 auto; overflow:hidden; display: flex; justify-content: space-between; align-items: center;}
   #header-logo {padding:0; background:none; float:left;}
-  #header-nav  {padding:.5em; background:none; float:right; display:block;}
+  #header-nav  {padding:.5em; background:none; display:block;}
   #header-nav-toggle {display:none;}
 
   /* Nav */
   .nav li {width:auto; margin:0 .5em; display:inline-block;}
 
 }
-
-
-
-
-
-
 
 
 /* Icon 1 */
@@ -106,7 +100,6 @@ body {font:400 16px 'Montserrat', sans-serf;}
   -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-
 
 
 /* Icon 3 */
@@ -148,5 +141,3 @@ body {font:400 16px 'Montserrat', sans-serf;}
   width: 0%;
   left: 50%;
 }
-
-
